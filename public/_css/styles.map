@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"../_sass/styles.scss"
+	],
+	"sourcesContent": [
+		"$primary_color: #ff7700;\r\n$secodary_color: #ffa95e;\r\n$fontsize: 18px;\r\n\r\nbody {\r\n  background-color: $primary_color;\r\n  color: $secodary_color;\r\n  font-size: $fontsize;\r\n} "
+	],
+	"names": [],
+	"mappings": ";AAIA,AAAA,IAAI,CAAC;EACH,gBAAgB,EALF,OAAO;EAMrB,KAAK,EALU,OAAO;EAMtB,SAAS,EALA,IAAI;CAMd"
+}
