@@ -41,20 +41,21 @@
   #credentials {
     margin: 10px;
     height: 5rem;
+    padding-bottom: 4rem;
     font-family: "Montserrat_Medium";
     text-align: center;
   }
-  /* line 54, ../../../Documents/Projetos_GitHub/Portfolio/public/_sass/styles.scss */
+  /* line 55, ../../../Documents/Projetos_GitHub/Portfolio/public/_sass/styles.scss */
   #person_logo {
     height: 50px;
     width: 50px;
   }
-  /* line 58, ../../../Documents/Projetos_GitHub/Portfolio/public/_sass/styles.scss */
+  /* line 59, ../../../Documents/Projetos_GitHub/Portfolio/public/_sass/styles.scss */
   .container {
     padding-left: 10px;
     padding-right: 10px;
   }
-  /* line 62, ../../../Documents/Projetos_GitHub/Portfolio/public/_sass/styles.scss */
+  /* line 63, ../../../Documents/Projetos_GitHub/Portfolio/public/_sass/styles.scss */
   body {
     background-color: rgba(255, 119, 0, 0.5);
     background-blend-mode: lighten;
@@ -67,50 +68,114 @@
 }
 
 @media screen and (min-width: 1024px) and (orientation: landscape) {
-  /* line 73, ../../../Documents/Projetos_GitHub/Portfolio/public/_sass/styles.scss */
+  /* line 74, ../../../Documents/Projetos_GitHub/Portfolio/public/_sass/styles.scss */
   .ativator {
     margin-left: 0%;
   }
-  /* line 76, ../../../Documents/Projetos_GitHub/Portfolio/public/_sass/styles.scss */
+  /* line 77, ../../../Documents/Projetos_GitHub/Portfolio/public/_sass/styles.scss */
   #row {
     width: 100%;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     grid-gap: 0px;
     margin: 0px;
     padding: 0px;
   }
-  /* line 84, ../../../Documents/Projetos_GitHub/Portfolio/public/_sass/styles.scss */
+  /* line 85, ../../../Documents/Projetos_GitHub/Portfolio/public/_sass/styles.scss */
+  .container {
+    padding: 5px;
+  }
+  /* line 88, ../../../Documents/Projetos_GitHub/Portfolio/public/_sass/styles.scss */
   #slide {
     margin: 0px;
     padding: 10px;
     height: 100%;
     width: 50%;
   }
-  /* line 90, ../../../Documents/Projetos_GitHub/Portfolio/public/_sass/styles.scss */
+  /* line 94, ../../../Documents/Projetos_GitHub/Portfolio/public/_sass/styles.scss */
   #container {
-    margin: 0px;
     padding: 10px;
     height: 100%;
-    width: 70%;
+    width: 97%;
     background-color: #454545;
     color: #ffffff;
     font-family: "Montserrat_Medium";
   }
-  /* line 99, ../../../Documents/Projetos_GitHub/Portfolio/public/_sass/styles.scss */
+  /* line 102, ../../../Documents/Projetos_GitHub/Portfolio/public/_sass/styles.scss */
   #credentials {
-    width: 50%;
+    width: 100%;
     padding-top: 100px;
-    padding-right: 0px;
+    padding-right: 1rem;
     font-family: "Montserrat_Medium";
+    font-size: 13px;
     text-align: center;
   }
-  /* line 106, ../../../Documents/Projetos_GitHub/Portfolio/public/_sass/styles.scss */
+  /* line 110, ../../../Documents/Projetos_GitHub/Portfolio/public/_sass/styles.scss */
   #person_logo {
     height: 100px;
     width: 100px;
   }
-  /* line 111, ../../../Documents/Projetos_GitHub/Portfolio/public/_sass/styles.scss */
+  /* line 115, ../../../Documents/Projetos_GitHub/Portfolio/public/_sass/styles.scss */
+  body {
+    background-color: rgba(255, 119, 0, 0.5);
+    background-blend-mode: lighten;
+    background-image: url("/public/img/slide2.jpg");
+    padding: 0px;
+    margin: 0px;
+    color: #ffffff;
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (orientation: portrait) {
+  /* line 127, ../../../Documents/Projetos_GitHub/Portfolio/public/_sass/styles.scss */
+  .ativator {
+    margin-left: 0%;
+  }
+  /* line 130, ../../../Documents/Projetos_GitHub/Portfolio/public/_sass/styles.scss */
+  #row {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 0px;
+    margin: 0px;
+    padding: 0px;
+  }
+  /* line 138, ../../../Documents/Projetos_GitHub/Portfolio/public/_sass/styles.scss */
+  .container {
+    padding: 5px;
+  }
+  /* line 141, ../../../Documents/Projetos_GitHub/Portfolio/public/_sass/styles.scss */
+  #slide {
+    margin: 0px;
+    padding: 10px;
+    height: 100%;
+    width: 50%;
+  }
+  /* line 147, ../../../Documents/Projetos_GitHub/Portfolio/public/_sass/styles.scss */
+  #container {
+    padding: 10px;
+    height: 100%;
+    width: 97%;
+    background-color: #454545;
+    color: #ffffff;
+    font-family: "Montserrat_Medium";
+  }
+  /* line 155, ../../../Documents/Projetos_GitHub/Portfolio/public/_sass/styles.scss */
+  #credentials {
+    width: 100%;
+    padding-top: 100px;
+    padding-right: 1rem;
+    font-family: "Montserrat_Medium";
+    font-size: 13px;
+    text-align: center;
+  }
+  /* line 163, ../../../Documents/Projetos_GitHub/Portfolio/public/_sass/styles.scss */
+  #person_logo {
+    height: 100px;
+    width: 100px;
+  }
+  /* line 168, ../../../Documents/Projetos_GitHub/Portfolio/public/_sass/styles.scss */
   body {
     background-color: rgba(255, 119, 0, 0.5);
     background-blend-mode: lighten;
