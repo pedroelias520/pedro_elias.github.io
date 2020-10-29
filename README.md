@@ -1,2 +1,2 @@
-# https://pedro_elias.github.io
+# pedro_elias.github.io
 My portfolio to professional contact
