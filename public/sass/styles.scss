@@ -8,11 +8,11 @@ $mobile_fontsize: 7px;
 
 @font-face{
     font-family: 'Montserrat_Medium';
-    src: url('/public/font/Montserrat-Medium.ttf')
+    src: url('../font/Montserrat-Medium.ttf')
 }
 @font-face{
   font-family: 'Montserrat_Bold';
-  src: url('/public/font/Montserrat-Bold.ttf');
+  src: url('../font/Montserrat-Bold.ttf');
 }
 
 $primary_font: 'Montserrat_Medium';
