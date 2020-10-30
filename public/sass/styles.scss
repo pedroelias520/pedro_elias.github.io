@@ -8,11 +8,11 @@ $mobile_fontsize: 7px;
 
 @font-face{
     font-family: 'Montserrat_Medium';
-    src: url('../font/Montserrat-Medium.ttf')
+    src: url('/public/font/Montserrat-Medium.ttf')
 }
 @font-face{
   font-family: 'Montserrat_Bold';
-  src: url('..font/Montserrat-Bold.ttf');
+  src: url('/public/font/Montserrat-Bold.ttf');
 }
 
 $primary_font: 'Montserrat_Medium';
@@ -63,7 +63,7 @@ $secondary_font: 'Montserrat_Bold';
   body {    
     background-color: rgba(255, 119, 0, 0.5);
     background-blend-mode: lighten;
-    background-image: url('../img/slide2.jpg');
+    background-image: url('/public/img/slide2.jpg');
     padding: 0px;
     margin: 0px;  
     color: $default_color;
@@ -115,7 +115,7 @@ $secondary_font: 'Montserrat_Bold';
   body {    
     background-color: rgba(255, 119, 0, 0.5);
     background-blend-mode: lighten;
-    background-image: url('../img/slide3.jpg');
+    background-image: url('/public/img/slide2.jpg');
     padding: 0px;
     margin: 0px;  
     color: $default_color;
@@ -168,7 +168,7 @@ $secondary_font: 'Montserrat_Bold';
   body {    
     background-color: rgba(255, 119, 0, 0.5);
     background-blend-mode: lighten;
-    background-image: url('../img/slide3.jpg');
+    background-image: url('/public/img/slide2.jpg');
     padding: 0px;
     margin: 0px;  
     color: $default_color;
