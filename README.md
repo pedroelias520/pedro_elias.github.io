@@ -1,4 +1,4 @@
-# Portfólio - Carlos Amorim
+# Portfólio - Pedro Elias
 
 Esse portfólio foi criado para mostrar meus projetos e habilidades.
 
