@@ -2,7 +2,6 @@
 
 Esse portfólio foi criado para mostrar meus projetos e habilidades.
 
-![image](https://user-images.githubusercontent.com/83739628/156067457-ed23bb4d-c62e-43ca-bff8-8cf7089c1ccb.png)
 
 ## 🚀 Projeto criado com as seguintes tecnologias:
 
@@ -26,7 +25,7 @@ Esse portfólio foi criado para mostrar meus projetos e habilidades.
 
 ## Clonar o repositório
 ```bash
-$ git clone https://github.com/CarlosAmorim94/portfolio
+$ git clone https://github.com/pedroelias520/pedro_elias.github.io.git
 ```
 
 ## Instalar dependências
@@ -39,4 +38,4 @@ yarn
 yarn dev
 ```
 
-## 😃 Gostou? me siga no -> [Likedln](https://www.linkedin.com/in/CarlosAmorim94/)
+## 😃 Gostou? me siga no -> [Likedln](https://github.com/pedroelias520)
