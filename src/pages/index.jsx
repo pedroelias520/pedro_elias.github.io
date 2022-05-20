@@ -17,6 +17,9 @@ export default function Home() {
         content="Portfolio de projetos de Carlos Amorim, desenvolvedor Front-End"
         />
         <link rel="icon" href="/favicon.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet"/>
         <title>Pedro Elias - Portifolio</title>
 
       </Head>

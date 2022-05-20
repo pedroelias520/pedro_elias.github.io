@@ -39,32 +39,35 @@ export const Description = styled.div`
   }
 
   a {
-    width: fit-content;
+    width: 250px;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: center;      
     text-decoration: none;
-    justify-content: space-between;
-    padding: .5rem 2.5rem;
+    justify-content: space-evenly;
+    padding: 1rem 2.5rem;
     background-color: var(--dark);
-    color: var(--white);
-    border-radius: 5px;
+    color: var(--white);      
     font-weight: 600;
-    font-size: 16px;
+    font-size: 10px;
     line-height: 19px;
     border: 2px solid var(--blue);
+    border-radius: 2rem;
+    margin-right: 2rem;
     cursor: pointer;
-    letter-spacing: 1px;
-    transition: all ease 0.5s;
-    margin-top: 1rem;
+    letter-spacing: 2px;
+    transition: all ease 1.5s;          
 
-    span {
-      margin-left: .5rem;
-      color: var(--white);
+    img{
+      background: transparent;
     }
 
+    span {
+      color: var(--white);
+      background: transparent;
+    }
     &:hover { // Neon
-      box-shadow: 0 0 30px var(--blue);
+      box-shadow: inset 400px 0 0 0 var(--blue);                              
     }
   }
 `

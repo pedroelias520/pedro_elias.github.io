@@ -63,11 +63,14 @@ export const TextStyled = styled(motion.article)`
       margin-right: 2rem;
       cursor: pointer;
       letter-spacing: 2px;
-      transition: all ease 1.0s;      
+      transition: all ease 1.5s;      
       transform: skew(-20deg);
-
+      
+      img{
+        background-color: transparent;
+      }
       &:hover { // Neon
-        box-shadow: inset 400px 0 0 0 var(--blue);;
+        box-shadow: inset 400px 0 0 0 var(--blue);                  
       }
     }
 

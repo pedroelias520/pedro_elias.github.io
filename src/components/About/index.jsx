@@ -18,12 +18,13 @@ export const About = () => {
       transition={{ duration: 1 }}
       viewport={{ once: true }} // only one time
     >
+      
       <Image
-        className="neon"
-        src={profilePicture}
-        alt="Foto de perfil"
-        layout="responsive"
-      />
+          className="neon"
+          src={profilePicture}
+          alt="Foto de perfil"
+          layout="responsive"
+        />      
     </ImageStyled>
 
     <TextArea>
@@ -78,7 +79,7 @@ export const About = () => {
         viewport={{ once: true }} // only one time
       >
         <Link 
-        href="https://drive.google.com/file/d/1tU-iZOQbjmGLyKhq09LJeiupnGUaoAo6/view?usp=sharing"
+        href="https://drive.google.com/file/d/1axgbdXcO10PNC5v-2ByZupOYIrguoiYz/view?usp=sharing"
          >
             <a target="_blank">
               <Image src={downloadIcon} alt="LinkedIn icon"/>

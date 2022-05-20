@@ -1,5 +1,4 @@
 import { createGlobalStyle } from 'styled-components'
-
 export const GlobalStyle = createGlobalStyle`
 
     
@@ -16,15 +15,15 @@ export const GlobalStyle = createGlobalStyle`
     }    
         
     @font-face {
-        font-family: 'Tommy';
-        src: url('./fonts/MADE TOMMY Medium_PERSONAL USE.otf');
+        font-family: 'Tom';
+        src: url('src/fonts/MTMedium.otf');
     }
 
     * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        font-family: 'Tommy', Tahoma;
+        font-family: 'Montserrat', sans-serif;
         background-color: var(--dark);
         user-select: none;
     }
