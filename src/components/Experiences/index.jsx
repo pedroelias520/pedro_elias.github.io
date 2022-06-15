@@ -40,24 +40,18 @@ export const Experiences = () => {
           <Slide {...fadeProperties}>
             <div className="each-fade">
               <div className="text">
-                <h2>Embraer</h2>
+                <h2>Alpha Tech app</h2>
                 <p>
-                Estou desenvolvendo um sistema para automatização do processo em que atuo.
+                Estou desenvolvendo um sistema para automatização para Desktop feito em Javascript.
                 </p>
                 <p>
-                Além de executar minhas funções, <span>ganhei vários prêmios de melhoria</span> de processo no
-                “Programa boa ideia”
+                Além de executar minhas funções, <span>melhora o meu trabalho</span> pois me ajuda a quantificar, projetar e agilizar a manutenção de computadores
                 </p> 
                 <p>
-                participando de Kaizens, elaborando mapeamento de
-                fluxo de valor, analisava erros em processos e suas soluções, atuei 2 anos na função de
-                “Agente de melhoria contínua”</p>
-                <p> onde fui responsável direto por coordenar e executar essas
-                melhorias junto com a equipe.
-                </p>
-
+                participando de conversões, elaborando mapeamento de
+                fluxo de valor, analisava erros em outros programas e os catalogava e usava a experiência de 2 anos de manutenção com computadores</p>                
                 <div>
-                  2013 - atualmente
+                  2022 - atualmente
                 </div>
               </div>
               <div className="image">
@@ -69,15 +63,15 @@ export const Experiences = () => {
 
             <div className="each-fade">
                <div className="text">
-                  <h2>Mara Queijos</h2>
+                  <h2>Valuer Trade</h2>
                   <p>
-                  SPA desenvolvido com ReactJs para exibição dos produtos e contato com a empresa.
+                  Aplicativo feito para contabilizar operações na bolsa de valores feito em React Native.
                   </p>
                   <p>
-                  Fui responsável pelo Desenvolvimento do 0, desde UI, código e deploy.
+                  Quando conversava com alguns amigos sobre a dificuldade de contabilizar as entradas e gerar relatórios sobre, então uma excelente alternativa foi criar uma aplicação para celular para contatbilizar todas as entradas e saidas 
                   </p>
                 <div>
-                  Freelance - Dez/21 - Jan/22
+                  2021-2022
                 </div>
               </div>
               <div className="image">
@@ -89,15 +83,15 @@ export const Experiences = () => {
 
             <div className="each-fade">
               <div className="text">
-                <h2>Doce Amor - Bolos</h2>
+                <h2>Ewstore</h2>
                 <p>
-                SPA desenvolvido com ReactJs para exibição dos produtos e contato com a empresa.
+                  Um aplicativo de Ecomerce para uma loja de roupas criado em Flutter e Firebase 
                 </p>
                 <p>
-                Fui responsável pelo Desenvolvimento do 0, desde UI, código e deploy.
+                  Vendo que minha tia havia criado uma loja de roupas fui rápido em analisar uma forma de criar uma boa solução para aumentar as vendas dela. Um app capaz de criar postagens e mostrar para os clientes
                 </p>
                 <div>
-                  Freelance - Out/21 - Nov/21
+                  2022 - Até o momento
                 </div>
               </div>
               <div className="image">

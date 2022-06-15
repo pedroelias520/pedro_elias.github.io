@@ -9,12 +9,16 @@ export const Container = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border-radius: 80px;
+  background-color: var(--blue);
 
   h1 {
-    color: var(--blue);
+    color: white;
+    background: transparent;
     font-size: 50px;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 
   @media (max-width: 450px) {
@@ -29,7 +33,8 @@ export const Contacts = styled(motion.div)`
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: column;   
+  background: transparent;
 `
 export const Emailform = styled.div`
   width: 100%;
@@ -37,11 +42,13 @@ export const Emailform = styled.div`
   justify-content: space-evenly;
   align-items: center;
   flex-direction: row;
+  background: transparent;
 
 
   h2 {
     color: var(--blue);
     margin: 0 auto; 
+    background: transparent;
   }
 
   form {
@@ -50,6 +57,7 @@ export const Emailform = styled.div`
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
+    background: transparent;
 
     input {
       width: 80%;
@@ -60,7 +68,7 @@ export const Emailform = styled.div`
       font-size: 1rem;
       background-color: var(--white);
       color: var(--dark);
-      border: 3px solid var(--blue);
+      border: 3px solid var(--dark);
       border-radius: 10px;
 
       &:focus,
@@ -80,7 +88,7 @@ export const Emailform = styled.div`
       font-size: 1rem;
       background-color: var(--white);
       color: var(--dark);
-      border: 3px solid var(--blue);
+      border: 3px solid var(--dark);
       border-radius: 10px;
 
       &:focus,
@@ -127,37 +135,44 @@ export const Socials = styled(motion.div)`
   justify-content: space-between;
   align-items: center;
   margin: 1rem auto;
+  background: transparent;
 
   h2 {
-    color: var(--blue);
+    color: var(--dark);
     margin-right: 2rem;
   }
 
   a {
     text-decoration: none;
+    background: transparent;
   }
 
   .whatsapp {
     font-size: 3rem;
-    color: var(--blue);
+    color: var(--dark);
     margin-right: 2rem;
+    background: transparent;
 
     :hover {
-      color: #00A884 ;
+      transition: all ease 1s;
+      color: white ;
     }
   }
 
   .linkedin {
     font-size: 3rem;
-    color: var(--blue);
+    color: var(--dark);
+    background: transparent;
 
     &:hover {
-      color: #0A66C2;
+      transition: all ease 1s;
+      color: white;
     }
   }
 
   @media (max-width: 450px) {
     width: 80%;
+    background: transparent;
 
     h2 {
       font-size: 1rem;
@@ -167,6 +182,7 @@ export const Socials = styled(motion.div)`
 `
 export const ImageStyled = styled(motion.div)`
   width: 50%;
+  color: var(--blue);
 
   @media (max-width: 450px) {
     display: none;

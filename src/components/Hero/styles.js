@@ -70,7 +70,9 @@ export const TextStyled = styled(motion.article)`
         background-color: transparent;
       }
       &:hover { // Neon
-        box-shadow: inset 400px 0 0 0 var(--blue);                  
+        box-shadow: inset 400px 0 0 0 var(--blue); 
+        animation: shine 5s infinite;
+        transition: all ease 1.0s;        
       }
     }
 

@@ -18,7 +18,7 @@ export const Contact = () => {
         stiffness: 80 }}
         viewport={{ once: true }} // only one time
       >
-        Entre em contato!
+        Entre em contato comigo!
       </motion.h1>
 
       <Contacts>

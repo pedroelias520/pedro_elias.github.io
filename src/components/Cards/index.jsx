@@ -13,11 +13,8 @@ import { Content, Description, ImageStyled } from "./styles"
 export const Cards = () => {
 
   const cards = [
-    {img: project1, name: "Be The Hero", link: "https://github.com/CarlosAmorim94/Be_The_Hero", tech: "NodeJs, ReactJs, React Native, API, Styled-components, "},
-    {img: project2, name: "PokeNext", link: "https://github.com/CarlosAmorim94/PokeNext", tech: "NextJs, API, Styled-components, "},
-    {img: project3, name: "DT-Money", link: "https://github.com/CarlosAmorim94/DTMoney", tech: "ReactJs, Typescript, API, Styled-components, ContexAPI, MirageJs"},
-    {img: project4, name: "Clone da Netflix", link: "https://github.com/CarlosAmorim94/Clone-Netflix", tech: "ReactJs, API, CSS"},
-    {img: project5, name: "Ig-News", link: "https://github.com/CarlosAmorim94/IG-News", tech: "NextJs, Typescript, SCSS, Stripe, FaunaDB, auth"},
+    {img: project1, name: "Petfriends", link: "https://github.com/CarlosAmorim94/Be_The_Hero", tech: "Kotlin, ORM e SQLite"},
+    {img: project2, name: "Padronizador de texto", link: "https://github.com/CarlosAmorim94/PokeNext", tech: "Electron, Javascript, HTML, SCSS"},    
   ]
 
   return (
