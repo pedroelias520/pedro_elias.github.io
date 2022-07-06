@@ -5,6 +5,8 @@ import { Hero } from "../components/Hero";
 import { Experiences } from "../components/Experiences";
 import { Projects } from "../components/Projects";
 import { Contact } from "../components/Contact";
+import { ContactManutention } from "../components/ContactManutention";
+import { ContactsCarrosel } from "../components/ContactsCarrosel";
 
 export default function Home() {
   return (
@@ -19,7 +21,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet"/>
+        <link href='https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap' rel="stylesheet"/>
         <title>Pedro Elias - Portifolio</title>
 
       </Head>
@@ -35,7 +37,10 @@ export default function Home() {
       <Projects />
 
       <Contact />
-    
+      <br></br>
+      <ContactManutention/>
+      
+
     </>
   )
 }

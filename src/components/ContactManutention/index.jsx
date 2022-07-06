@@ -1,13 +1,13 @@
 import Lottie from "react-lottie"
 
 import { Contacts, Container, Emailform, Socials, ImageStyled } from "./styles"
-import EmailMessage from '../../../public/img/lottie/email.json'
+import Computer from '../../../public/img/lottie/computer_error.json'
 import { SiWhatsapp } from 'react-icons/si';
 import { SiLinkedin } from 'react-icons/si';
 import { AiOutlineMail } from 'react-icons/ai'
 import { motion } from 'framer-motion'
 
-export const Contact = () => {
+export const ContactManutention = () => {
   return (
     <Container id="contact">
 
@@ -18,7 +18,7 @@ export const Contact = () => {
         stiffness: 80 }}
         viewport={{ once: true }} // only one time
       >
-        Precisa de um sistema personlizado?
+        Computador deu defeito?
       </motion.h1>
 
       <Contacts>
@@ -36,7 +36,7 @@ export const Contact = () => {
                 loop: true,
                 autoplay: true,
                 speed: 3,
-                animationData: EmailMessage,
+                animationData: Computer,
               }}
             />        
           </ImageStyled>

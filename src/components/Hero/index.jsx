@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 import Link from "next/link";
 import Image from "next/image";
 import Lottie from 'react-lottie';
-import programming from '../../../public/img/lottie/programming.json'
+import programming from '../../../public/img/lottie/person.json'
 import github from '../../../public/img/icons/GitHub.svg'
 import linkedin from '../../../public/img/icons/LinkedIn.svg'
 
@@ -30,7 +30,7 @@ export const Hero = () => {
       Olá, amigo, eu sou <br/>
       <span>Pedro Elias</span>
       <br/> Desenvolvedor Mobile e Web
-
+      
       <div>
   
           <motion.a href="https://www.linkedin.com/in/pedro-sousa-figueredo/"
@@ -68,7 +68,7 @@ export const Hero = () => {
             <Image src={github} alt="GitHub icon"/>
             GitHub
           </motion.a>
-
+              
       </div>
     </TextStyled>
 

@@ -10,10 +10,10 @@ export const Container = styled.section`
   align-items: center;
   justify-content: center;
   border-radius: 80px;
-  background-color: var(--blue);
+  background-color: var(--yellow);
 
   h1 {
-    color: white;
+    color: black;
     background: transparent;
     font-size: 50px;
     padding: 10px;
@@ -34,7 +34,7 @@ export const Contacts = styled(motion.div)`
   justify-content: center;
   align-items: center;
   flex-direction: column;   
-  background: transparent;  
+  background: transparent;
 `
 export const Emailform = styled.div`
   width: 100%;
@@ -46,7 +46,7 @@ export const Emailform = styled.div`
 
 
   h2 {
-    color: white;
+    color: black;
     margin: 0 auto; 
     background: transparent;
   }
@@ -112,14 +112,14 @@ export const Emailform = styled.div`
       font-weight: 600;
       font-size: 16px;
       line-height: 19px;
-      border: 2px solid var(--blue);
+      border: 2px solid white;
       margin: 1rem auto;
       cursor: pointer;
       letter-spacing: 2px;
       transition: all ease 0.5s;
 
       &:hover { // Neon
-        box-shadow: 0 0 30px var(--blue);
+        box-shadow: 0 0 30px white;
       }
     }
 
@@ -183,11 +183,11 @@ export const Socials = styled(motion.div)`
 export const ImageStyled = styled(motion.div)`
   width: 50%;
   background-color: transparent;  
-
+  margin: 20px;
   @media (max-width: 450px) {
     display: none;
   }
-  
+
   div{
     background: transparent;
   }

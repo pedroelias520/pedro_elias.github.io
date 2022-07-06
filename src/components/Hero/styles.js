@@ -95,7 +95,7 @@ export const TextStyled = styled(motion.article)`
 
 `
 export const ImageStyled = styled(motion.div)`
-  width: 600px;
+  width: 400px;
   margin: 0 auto;
 
   @media (max-width: 450px) {
