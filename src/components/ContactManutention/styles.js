@@ -2,29 +2,30 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 
 export const Container = styled.section`
-  width: 100%;
+  width: 90%;
   max-width: 1200px;
   margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-radius: 80px;
-  background-color: var(--yellow);
+  border-radius: 60px;
+  background-image: linear-gradient(45deg, #ffe356 , #ffd500);
 
+
+    
   h1 {
     color: black;
     background: transparent;
-    font-size: 50px;
+    font-size: 5vw;
+    text-align: center;
     padding: 10px;
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 40px;    
   }
 
-  @media (max-width: 450px) {
-    h1 {
-      text-align: center;
-    }
+  @media (max-width: 450px) { 
+
   }
 
 `
@@ -34,7 +35,7 @@ export const Contacts = styled(motion.div)`
   justify-content: center;
   align-items: center;
   flex-direction: column;   
-  background: transparent;
+  background: transparent;  
 `
 export const Emailform = styled.div`
   width: 100%;
@@ -42,17 +43,18 @@ export const Emailform = styled.div`
   justify-content: space-evenly;
   align-items: center;
   flex-direction: row;
-  background: transparent;
+  background: transparent;  
 
 
-  h2 {
+  h2 {    
+    width: 100%;
+    text-align: center;    
     color: black;
     margin: 0 auto; 
-    background: transparent;
+    background: transparent;    
   }
 
-  form {
-    margin: 1rem auto;
+  form {    
     width: 50%;
     display: flex;
     justify-content: space-evenly;
@@ -112,33 +114,38 @@ export const Emailform = styled.div`
       font-weight: 600;
       font-size: 16px;
       line-height: 19px;
-      border: 2px solid white;
+      border: 2px solid var(--blue);
       margin: 1rem auto;
       cursor: pointer;
       letter-spacing: 2px;
       transition: all ease 0.5s;
 
       &:hover { // Neon
-        box-shadow: 0 0 30px white;
+        box-shadow: 0 0 30px var(--blue);
       }
     }
 
-    @media (max-width: 450px) {
-      width: 90%;
+    @media (max-width: 450px) {      
+      h2 {
+        font-size:5vw;
+      }
+      .formulary_item{
+        display:none;
+      }
     }
   }
 `
 export const Socials = styled(motion.div)`
-  color: var(--blue);
+  color: var(--white);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   margin: 1rem auto;
-  background: transparent;
+  background: transparent;  
 
   h2 {
-    color: var(--dark);
+    color: black;
     margin-right: 2rem;
   }
 
@@ -149,7 +156,7 @@ export const Socials = styled(motion.div)`
 
   .whatsapp {
     font-size: 3rem;
-    color: var(--dark);
+    color: black;
     margin-right: 2rem;
     background: transparent;
 
@@ -161,7 +168,7 @@ export const Socials = styled(motion.div)`
 
   .linkedin {
     font-size: 3rem;
-    color: var(--dark);
+    color: black;
     background: transparent;
 
     &:hover {
@@ -183,11 +190,11 @@ export const Socials = styled(motion.div)`
 export const ImageStyled = styled(motion.div)`
   width: 50%;
   background-color: transparent;  
-  margin: 20px;
+
   @media (max-width: 450px) {
     display: none;
   }
-
+  
   div{
     background: transparent;
   }

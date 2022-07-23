@@ -21,7 +21,7 @@ export const TextStyled = styled(motion.article)`
   font-weight: 600;
   font-size: 20px;
   margin: 0 auto 1rem;
-  text-transform: uppercase;
+  text-transform: uppercase;  
 
   @media (max-width: 450px) {
     margin: 3rem auto;
@@ -40,8 +40,8 @@ export const TextStyled = styled(motion.article)`
   }
 
   div {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    width: 90%;    
     align-items: center;
     margin: 3rem 0 0;
 

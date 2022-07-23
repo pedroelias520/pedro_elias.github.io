@@ -41,14 +41,14 @@ export const Contact = () => {
             />        
           </ImageStyled>
           
-          <form action="https://formsubmit.co/carlos.av.amorim@gmail.com" method="POST">
+          <form action="https://formsubmit.co/epedro520@gmail.com" method="POST">
             
-            <h2>Me manda um email</h2>
+            <h2>Entre em contato comigo</h2>
 
             <input
             type="hidden"
             name="_next"
-            value="https://carlosamorim.vercel.app/emailsent" />
+            value="https://pedro-elias-portifolio.herokuapp.com/emailsent" />
 
             <input
             type="hidden"
@@ -58,6 +58,7 @@ export const Contact = () => {
             <motion.input 
             type="text" 
             name="name" 
+            className="formulary_item"
             placeholder="Digite seu nome"
             //motion bellow
             initial={{ opacity: 0, opacity: 0 }}
@@ -70,7 +71,8 @@ export const Contact = () => {
 
             <motion.input 
             type="email" 
-            name="email" 
+            name="email"
+            className="formulary_item" 
             placeholder="Digite seu email"
             //motion bellow
             initial={{ opacity: 0, opacity: 0 }}
@@ -83,6 +85,7 @@ export const Contact = () => {
 
             <motion.input 
             type="text" 
+            className="formulary_item"
             name="subject" 
             placeholder="Assunto"
             //motion bellow
@@ -96,6 +99,7 @@ export const Contact = () => {
 
             <motion.textarea  
             name="message" 
+            className="formulary_item"
             placeholder="Digite uma mensagem..."
             //motion bellow
             initial={{ opacity: 0, opacity: 0 }}
@@ -107,6 +111,7 @@ export const Contact = () => {
             />
             
             <motion.button type="submit"
+            className="formulary_item"
             initial={{ opacity: 0, opacity: 0 }}
             whileInView={{ opacity: 1, opacity: 1 }} //onScroll
             transition={{ duration: 3, delay: 3 ,type: 'spring',
@@ -123,8 +128,7 @@ export const Contact = () => {
             transition={{ duration: 3, delay: 3.5, type: 'spring',
             stiffness: 30 }}
             viewport={{ once: true }} // only one time
-            >
-              <h2>Ou por redes sociais:</h2>
+            >              
               <a href="https://api.whatsapp.com/send?phone=5514998057785" _blank="true">
                 <SiWhatsapp className="whatsapp" />
               </a>

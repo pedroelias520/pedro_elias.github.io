@@ -175,13 +175,14 @@ export const TextArea = styled.div`
     margin: 0 auto;
 
     h1 {
-      font-size 2vw;
-      text-align: justify;
+      border:1px  
+      font-size 10vw;
+      text-align: center;
       text-justify: inter-word;
     }
 
     p {
-      font-size: 1rem;
+      font-size: 2vw;
       text-align: justify;
       text-justify: inter-word;
     }

@@ -43,7 +43,7 @@ export const ContactManutention = () => {
           
           <form action="https://formsubmit.co/carlos.av.amorim@gmail.com" method="POST">
             
-            <h2>Me manda um email</h2>
+            <h2>Entre em contato comigo</h2>
 
             <input
             type="hidden"
@@ -58,6 +58,7 @@ export const ContactManutention = () => {
             <motion.input 
             type="text" 
             name="name" 
+            className="formulary_item"
             placeholder="Digite seu nome"
             //motion bellow
             initial={{ opacity: 0, opacity: 0 }}
@@ -71,6 +72,7 @@ export const ContactManutention = () => {
             <motion.input 
             type="email" 
             name="email" 
+            className="formulary_item"
             placeholder="Digite seu email"
             //motion bellow
             initial={{ opacity: 0, opacity: 0 }}
@@ -84,6 +86,7 @@ export const ContactManutention = () => {
             <motion.input 
             type="text" 
             name="subject" 
+            className="formulary_item"
             placeholder="Assunto"
             //motion bellow
             initial={{ opacity: 0, opacity: 0 }}
@@ -97,6 +100,7 @@ export const ContactManutention = () => {
             <motion.textarea  
             name="message" 
             placeholder="Digite uma mensagem..."
+            className="formulary_item"
             //motion bellow
             initial={{ opacity: 0, opacity: 0 }}
             whileInView={{ opacity: 1, opacity: 1 }} //onScroll
@@ -107,6 +111,7 @@ export const ContactManutention = () => {
             />
             
             <motion.button type="submit"
+            className="formulary_item"
             initial={{ opacity: 0, opacity: 0 }}
             whileInView={{ opacity: 1, opacity: 1 }} //onScroll
             transition={{ duration: 3, delay: 3 ,type: 'spring',
@@ -123,8 +128,7 @@ export const ContactManutention = () => {
             transition={{ duration: 3, delay: 3.5, type: 'spring',
             stiffness: 30 }}
             viewport={{ once: true }} // only one time
-            >
-              <h2>Ou por redes sociais:</h2>
+            >              
               <a href="https://api.whatsapp.com/send?phone=5514998057785" _blank="true">
                 <SiWhatsapp className="whatsapp" />
               </a>
