@@ -114,16 +114,16 @@ export const TextArea = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: column;    
 
-  h1 {
+  h1 {    
     color: var(--blue);
     font-size: 50px;
     padding: 10px;
     margin-bottom: 20px;
   }
 
-  p {
+  p {  
     color: var(--white);
     font-size: 24px;
     margin-bottom: 30px;
@@ -138,7 +138,7 @@ export const TextArea = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 0 0;
+    margin: 0 0;    
 
     a {
       width: 250px;

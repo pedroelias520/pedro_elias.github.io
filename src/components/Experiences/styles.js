@@ -11,10 +11,15 @@ export const Container = styled.section`
 
   h1 {
     color: var(--blue);
-    font-size: 10vw;
+    font-size: 5vw;
     padding: 10px;
     margin-bottom: 20px;
     text-align:center;
+  }
+  
+  
+  @media (max-width: 450px) {
+    font-size: 20px;
   }
 `
 

@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export const Container = styled.section`
   width: 90%;
   max-width: 1200px;
-  margin: auto;
+  margin: auto auto 20px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -110,12 +110,11 @@ export const Emailform = styled.div`
       padding: .5rem 2.5rem;
       background-color: var(--dark);
       color: var(--white);
-      border-radius: 5px;
+      border-radius: 20px;
       font-weight: 600;
       font-size: 16px;
-      line-height: 19px;
-      border: 2px solid var(--blue);
-      margin: 1rem auto;
+      line-height: 19px;      
+      margin: 1rem auto auto auto;
       cursor: pointer;
       letter-spacing: 2px;
       transition: all ease 0.5s;

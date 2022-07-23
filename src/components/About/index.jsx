@@ -65,9 +65,9 @@ export const About = () => {
         stiffness: 30 }}
         viewport={{ once: true }} // only one time
       >
-      Oque Rock Lee dizia eu tomo pra mim: 
+      Meu objetivo é ser um programador com excelência, trabalho sempre com eficiência e dedicação, meus estudos são constantes, a todo momento estou procurando melhorar em algo, se motivado (e com um pouco de café) posso construir soluções com muita facilidade, e se não souber alguma coisa, estudo e aprendo, o ditado que me define é 
       
-      <span> O trabalho duro vence o dom natural</span>
+      <span> Obsessão vence o talento</span>
   
       </motion.p>
 
