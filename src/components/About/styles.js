@@ -174,8 +174,16 @@ export const TextArea = styled.div`
     width: 100%;
     margin: 0 auto;
 
+    h1 {
+      font-size 2vw;
+      text-align: justify;
+      text-justify: inter-word;
+    }
+
     p {
       font-size: 1rem;
+      text-align: justify;
+      text-justify: inter-word;
     }
   }
 

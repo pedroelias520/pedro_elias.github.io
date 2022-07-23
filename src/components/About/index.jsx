@@ -45,7 +45,7 @@ export const About = () => {
         stiffness: 30 }}
         viewport={{ once: true }} // only one time
       >
-      Desde muito cedo era <span>viciado em tecnologia</span>, passava horas na frente de um computador alterando parâmetros de jogos em um Windows 95 hahaha, e sou autodidata, aprendo as coisas com muita facilidade, a grande maioria das linguagens que sei aprendi sozinho, ainda mais porque sou um leitor nato, ler documentação não é um problema pra mim.
+      Desde muito cedo era <span>gamado em tecnologia</span>, passava horas na frente de um computador alterando parâmetros de jogos em um Windows 95 hahaha, e sou autodidata, aprendo as coisas com muita facilidade, a grande maioria das linguagens que sei aprendi sozinho, ainda mais porque sou um leitor nato, ler documentação não é um problema pra mim.
       </motion.p>
 
       <motion.p
