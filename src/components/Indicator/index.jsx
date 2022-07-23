@@ -37,7 +37,7 @@ export const Indicator = () => {
       
       <div>
   
-          <motion.a href="https://www.linkedin.com/in/pedro-sousa-figueredo/"
+          <motion.a className="button kotlin" href="https://www.linkedin.com/in/pedro-sousa-figueredo/"          
           initial={{
             opacity: 0,
             y: 250
@@ -55,7 +55,8 @@ export const Indicator = () => {
             Kotlin
           </motion.a>
       
-        <motion.a className="button" href="https://github.com/pedroelias520"
+        <motion.a className="button flutter" href="https://github.com/pedroelias520"
+        
           initial={{
             opacity: 0,
             y: 250
@@ -73,7 +74,7 @@ export const Indicator = () => {
             Flutter
           </motion.a>
 
-          <motion.a href="https://www.linkedin.com/in/pedro-sousa-figueredo/"
+          <motion.a className="button php" href="https://www.linkedin.com/in/pedro-sousa-figueredo/"
           initial={{
             opacity: 0,
             y: 250
@@ -91,7 +92,7 @@ export const Indicator = () => {
             PHP
           </motion.a>
       
-        <motion.a className="button" href="https://github.com/pedroelias520"
+        <motion.a className="button nodejs" href="https://github.com/pedroelias520"
           initial={{
             opacity: 0,
             y: 250
@@ -109,7 +110,7 @@ export const Indicator = () => {
             NodeJS
           </motion.a> 
 
-          <motion.a className="button" href="https://github.com/pedroelias520"
+          <motion.a className="javascript" href="https://github.com/pedroelias520"
           initial={{
             opacity: 0,
             y: 250
@@ -124,7 +125,7 @@ export const Indicator = () => {
             duration: 1,
           }}>
             <Image src={javascript} alt="GitHub icon"/>
-            Javassript
+            ECMA
           </motion.a>
 
 

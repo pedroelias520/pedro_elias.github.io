@@ -12,8 +12,8 @@ export const HeroStyled = styled.main`
 `
 
 export const TextStyled = styled(motion.article)`
-
-  width: 550px;
+  border: 1px solid purple;
+  width: 100%;
   height: 500px;
   padding: 2rem 0;
   color: var(--white);
@@ -27,7 +27,7 @@ export const TextStyled = styled(motion.article)`
     margin: 3rem auto;
     width: 100%;
     height: auto;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-align: center;
   }
 
@@ -35,28 +35,32 @@ export const TextStyled = styled(motion.article)`
     font-size: 63px;
     color: var(--blue);    
     @media (max-width: 450px) {
-      font-size: 2rem;
+      font-size: 7vw;
     }
   }
 
   div {
-    display: grid;
-    width: 90%;    
-    align-items: center;
-    margin: 3rem 0 0;
+    display: grid;    
+    width:100%;    
+    row-gap: 10px;    
+    grid-template-columns: auto auto auto;
+    width: 90%;        
+    margin:auto;
+    border: 1px solid green;
 
-    a {
+    a {      
       width: 250px;
+      height: 100px;
       display: flex;
       flex-direction: row;
       align-items: center;      
       text-decoration: none;
       justify-content: space-evenly;
       padding: 1rem 2.5rem;
-      background-color: var(--dark);
+      background-color: var(--blue);
       color: var(--white);      
       font-weight: 600;
-      font-size: 16px;
+      font-size: 1vw;
       line-height: 19px;
       border: 2px solid var(--blue);
       border-radius: 2rem;
@@ -64,11 +68,14 @@ export const TextStyled = styled(motion.article)`
       cursor: pointer;
       letter-spacing: 2px;
       transition: all ease 1.5s;      
-      transform: skew(-20deg);
+      transform: skew(-20deg);      
       
+
       img{
         background-color: transparent;
+        color: white;                   
       }
+
       &:hover { // Neon
         box-shadow: inset 400px 0 0 0 var(--blue); 
         animation: shine 5s infinite;
@@ -76,15 +83,43 @@ export const TextStyled = styled(motion.article)`
       }
     }
 
+    .kotlin{
+      grid-column: 1
+      grid-row: 1      
+    }
+
+    .flutter {
+      grid-column: 2
+      grid-row: 1
+    }
+
+    php{
+      grid-column: 1
+      grid-row: 2
+    }
+
+    nodejs{
+      grid-column: 2
+      grid-row: 2
+    }
+
+    javascript{
+      grid-column: 2
+      grid-row: 3
+    }
+
     @media (max-width: 450px) {
       width: 90%;
-      display: flex;
+      display: grid;
+      row-gap: 10px;    
+      grid-template-columns: auto auto;
       justify-content: space-around;
       margin: 3rem auto 0;
 
       a {
-        width: 45%;
+        width: 150px;
         margin: 0;
+        font-size: 3vw;
         padding: 0.5rem 1rem;
         align-items: center;
         justify-content: space-around;
