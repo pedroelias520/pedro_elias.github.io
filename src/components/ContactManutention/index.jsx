@@ -132,7 +132,7 @@ export const ContactManutention = () => {
               <a href="https://api.whatsapp.com/send?phone=5589994285712&text=%20Ol%C3%A1%2C%20tudo%20bem%2C%20vi%20sua%20p%C3%A1gina%20e%20quero%20saber%20mais%20sobre%20seus%20servi%C3%A7os." _blank="true">
                 <SiWhatsapp className="whatsapp" />
               </a>
-              <a href="https://www.linkedin.com/in/carlosamorim94/">
+              <a href="https://github.com/pedroelias520">
                 <SiLinkedin className="linkedin" />
               </a>
               
