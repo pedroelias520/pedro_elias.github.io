@@ -56,7 +56,7 @@ export const Header = () => {
           duration: .5,
           type: 'spring',
           delay: 0.1
-        }}><a href="#about">Sobre</a></motion.li>
+        }}><a href="#about">Sobre mim</a></motion.li>
 
         <motion.li
          initial={{
@@ -71,7 +71,7 @@ export const Header = () => {
           duration: .5,
           type: 'spring',
           delay: 0.2
-        }}><a href="#experiences">Experiência</a></motion.li>
+        }}><a href="#experiences">Minha Experiência</a></motion.li>
 
         <motion.li
          initial={{
@@ -86,7 +86,7 @@ export const Header = () => {
           duration: .5,
           type: 'spring',
           delay: 0.3
-        }}><a href="#projects">Projetos</a></motion.li>
+        }}><a href="#projects">Meus projetos</a></motion.li>
         <motion.li
          
          initial={{
@@ -101,7 +101,7 @@ export const Header = () => {
           duration: .5,
           type: 'spring',
           delay: 0.4
-        }}><a href="#contact">Contato</a></motion.li>
+        }}><a href="#contact">Meus serviços</a></motion.li>
       </NavStyled>
 
       <Hamburguer onClick={toogleMenu}>

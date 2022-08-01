@@ -12,6 +12,7 @@ import node from '../../../public/img/icons/npmjs.svg'
 import kotlin from '../../../public/img/icons/kotlin.svg'
 import javascript from '../../../public/img/icons/js.svg'
 import flutter from '../../../public/img/icons/flutter.svg'
+import java from '../../../public/img/icons/java.svg'
 
 
 export const Indicator = () => {
@@ -127,7 +128,24 @@ export const Indicator = () => {
             <Image src={javascript} alt="GitHub icon"/>
             ECMA
           </motion.a>
-
+          
+          <motion.a className="javascript" href="https://github.com/pedroelias520"
+          initial={{
+            opacity: 0,
+            y: 250
+          }}
+          animate={{
+            opacity: 1,
+            y: 0
+          }}
+          transition={{
+            duration: 2,
+            delay: 2.3,
+            duration: 1,
+          }}>
+            <Image src={java} alt="GitHub icon"/>
+            Java
+          </motion.a>
 
       </div>
     </TextStyled>

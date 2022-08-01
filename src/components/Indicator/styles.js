@@ -11,16 +11,16 @@ export const HeroStyled = styled.main`
   justify-content: space-between;
 `
 
-export const TextStyled = styled(motion.article)`
-  border: 1px solid purple;
+export const TextStyled = styled(motion.article)`  
   width: 100%;
   height: 500px;
   padding: 2rem 0;
   color: var(--white);
+  text-align: center;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
-  margin: 0 auto 1rem;
+  margin: auto auto auto auto;    
   text-transform: uppercase;  
 
   @media (max-width: 450px) {
@@ -34,6 +34,7 @@ export const TextStyled = styled(motion.article)`
   span {
     font-size: 63px;
     color: var(--blue);    
+    
     @media (max-width: 450px) {
       font-size: 7vw;
     }
@@ -42,11 +43,10 @@ export const TextStyled = styled(motion.article)`
   div {
     display: grid;    
     width:100%;    
-    row-gap: 10px;    
+    row-gap: 30px;    
     grid-template-columns: auto auto auto;
     width: 90%;        
-    margin:auto;
-    border: 1px solid green;
+    margin: 50px auto auto auto;    
 
     a {      
       width: 250px;
@@ -57,12 +57,11 @@ export const TextStyled = styled(motion.article)`
       text-decoration: none;
       justify-content: space-evenly;
       padding: 1rem 2.5rem;
-      background-color: var(--blue);
+      background-image: linear-gradient(45deg, #8400ff , #4c0093);
       color: var(--white);      
       font-weight: 600;
       font-size: 1vw;
-      line-height: 19px;
-      border: 2px solid var(--blue);
+      line-height: 19px;      
       border-radius: 2rem;
       margin-right: 2rem;
       cursor: pointer;
@@ -71,9 +70,9 @@ export const TextStyled = styled(motion.article)`
       transform: skew(-20deg);      
       
 
-      img{
+      img{        
         background-color: transparent;
-        color: white;                   
+        filter: invert(100%)
       }
 
       &:hover { // Neon
