@@ -79,7 +79,7 @@ export const About = () => {
         viewport={{ once: true }} // only one time
       >
         <Link 
-        href="https://drive.google.com/file/d/1axgbdXcO10PNC5v-2ByZupOYIrguoiYz/view?usp=sharing"
+        href="https://drive.google.com/file/d/1ZLcG0fxphrqF0xye2joG1WmgEJQE7Nc-/view?usp=sharing"
          >
             <a target="_blank">
               <Image src={downloadIcon} alt="LinkedIn icon"/>
