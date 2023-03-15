@@ -29,7 +29,7 @@ export const Hero = () => {
 
       Olá, amigo, eu sou <br/>
       <span>Pedro Elias</span>
-      <br/> Desenvolvedor Mobile e Web
+      <br/> Desenvolvedor Backend e Mobile
       
       <div>
   
