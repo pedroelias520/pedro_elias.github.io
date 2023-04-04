@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import embraer from '../../../public/img/embraer.jpg'
+import embraer from "../../../public/img/embraer.jpg"
 import mara from '../../../public/img/mara.png'
 import doceamor from '../../../public/img/doceamor.png'
 
